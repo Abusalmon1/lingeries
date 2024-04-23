@@ -9,7 +9,7 @@
 }
 ul{
     float: left;
-    color: white;
+    color: rgb(228, 0, 0);
 }
 ul li{
     margin-top:-10px ;
@@ -41,7 +41,7 @@ h5{
     border: 1px solid black;
     background-color: rgb(236, 61, 61);
     height:50px;
-
+color: blue;
 }
 ol{
     float:left;
@@ -57,7 +57,7 @@ ol li{
 }
 ol li a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 ol li a:hover{
    border-bottom: 4px solid black;
@@ -310,6 +310,7 @@ footer p {
 .social-media a:hover {
     color: #ccc;
 }
+
 @media screen and (max-width: 768px) {
     .first h1 {
         font-size: 24px; 
@@ -360,7 +361,72 @@ footer p {
         
     }
 
-    // .social-media li {
-    //     left: 0; 
-    // }
+    .social-media li {
+        left: 0; 
+    }
+    
 }
+
+@media screen and (max-width: 768px) {
+    .box1 {
+        height: auto;
+        padding: 10px; 
+    }
+    
+    ul {
+        float: none;
+        width: 100%; 
+        text-align: center; 
+    }
+    
+    ul li {
+        float: none;
+        display: inline-block;
+        margin: 0 5px; 
+        position: static;
+    }
+    
+    ul li a {
+        display: block; 
+    }
+    
+    h5 {
+        text-align: center; 
+        margin: 10px auto;
+        font-size: 12px; 
+    }
+    
+    .subbox {
+        height: auto;
+        padding: 10px; 
+    }
+    
+    ol {
+        float: none;
+        width: 100%; 
+        text-align: center;
+    }
+    
+    ol li {
+        float: none;
+        display: inline-block; 
+        margin: 0 5px; 
+        position: static;
+    }
+    
+    ol li a {
+        display: block; 
+    }
+    
+    .icon {
+        position: relative;
+        text-align: center; 
+    }
+    
+    .icon i {
+        display: inline-block; 
+        margin: 0 5px; 
+    }
+}
+
+
