@@ -331,7 +331,7 @@ footer p {
   display: inline-block;
   margin-right: 10px;
   position: relative;
-  left: 150%;
+  left: 10%;
 }
 
 .social-media li:last-child {
@@ -357,9 +357,6 @@ footer p {
   .subbox {
     height: auto;
   }
-  .icon {
-    display: none;
-  }
   .order-form {
     margin-right: 0;
   }
@@ -384,9 +381,6 @@ footer p {
   .newsletter button {
     width: 100%;
     margin: 10px 0;
-  }
-  .social-media li {
-    left: 0;
   }
 }
 /*# sourceMappingURL=ling.css.map */
